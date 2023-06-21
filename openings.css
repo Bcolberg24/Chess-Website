@@ -1,11 +1,14 @@
 header {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size:20px;
-    background-image: linear-gradient(to left, #000000, #ffffff);
-    color: black;
-    background-clip:border-box;
-    -webkit-background-clip:border-box;
+    font-size:25px;
+    padding-top: 10px;
+    background:rgb(18, 18, 18);
+    color: white;
+    box-shadow: 0 1px 20px #333;
+}
+body {
+    background-image:linear-gradient(white 30%, black 65%)
 }
 section {
     font-family: Arial, Helvetica, sans-serif;
@@ -17,8 +20,38 @@ section {
 }
 .menu {
     display: inline-block;
-    line-height:1px
+    line-height:20px;
+    background-size:contain;
+    margin-top:2px;
 }
-.left {
-    margin-right:1075px
+.middle {
+    margin-left:275px;
+    margin-right:450px;
+
+}
+button {
+    background-color: white;
+    color: black;
+    border-radius: 1em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+}
+button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 red;
+}
+button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 red;
+}
+.blacktext {
+    color:black;
+}
+.whitetext {
+    color:white;
 }
