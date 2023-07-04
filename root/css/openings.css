@@ -8,7 +8,12 @@ header {
     box-shadow: 0 1px 20px #333;
 }
 body {
-    background-image:linear-gradient(white 30%, black 65%)
+    /*background-image:linear-gradient(white 30%, black 65%)*/
+    background: url(../Images/chess_background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 section {
     font-family: Arial, Helvetica, sans-serif;
@@ -26,6 +31,13 @@ section {
     padding: 1;
     list-style: none;
 }
+.background {
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 8px 23px 0px black;
+    padding: 20px;
+}
 button {
     background-color: white;
     color: black;
@@ -40,11 +52,11 @@ button {
 }
 button:hover {
     transform: translateY(-4px) translateX(-2px);
-    box-shadow: 2px 5px 0 0 red;
+    box-shadow: 2px 5px 0 0 gray;
 }
 button:active {
     transform: translateY(2px) translateX(1px);
-    box-shadow: 0 0 0 0 red;
+    box-shadow: 0 0 0 0 gray;
 }
 .blacktext {
     color:black;
