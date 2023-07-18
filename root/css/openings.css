@@ -8,12 +8,12 @@ header {
     box-shadow: 0 1px 20px #333;
 }
 body {
-    /*background-image:linear-gradient(white 30%, black 65%)*/
-    background: url(../Images/chess_background.png) no-repeat center center fixed; 
+    background-image:linear-gradient(white 30%, black 65%)
+    /*background: url(../Images/chess_background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
 }
 section {
     font-family: Arial, Helvetica, sans-serif;
